@@ -27,7 +27,7 @@ public class revisao {
             }else if(media >= 4) {
                 System.out.println("Aluno em recuepração! vai fazer N3 em!");
             }else{
-                System.out.println("Aluno reprovado direto!");
+                System.out.println("Ihhhhhhhhhhh!!");
             }
     }
 }
