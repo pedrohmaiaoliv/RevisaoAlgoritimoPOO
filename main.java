@@ -1,7 +1,7 @@
 public class main
 {
     public static void main(String[] args) {
-        Aluno pedro = new Aluno ();
+        AlunoAula5 pedro = new AlunoAula5 ();
         pedro.nome = "Pedro Oliveira";
         pedro.idade = 36;
         pedro.situacao = true;

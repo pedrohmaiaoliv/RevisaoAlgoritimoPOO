@@ -1,23 +1,23 @@
-public class Aluno {
+public class AlunoAula5 {
     
     String nome;
     int idade;
     boolean situacao;
     double nota1, nota2;
         
-        public Aluno(String nome, int idade){
+        public AlunoAula5(String nome, int idade){
             this(idade, nome);
             this.nome = nome;
             this.idade = idade;
             this.situacao = true;
         }
 
-        public Aluno(int idade, String nome){
+        public AlunoAula5(int idade, String nome){
             this();
             System.out.println("Passei pelo construtor bem aqui tbm!");
         }
 
-        public Aluno(){
+        public AlunoAula5(){
             System.out.println("Passei pelo contstrutor");
         }
 

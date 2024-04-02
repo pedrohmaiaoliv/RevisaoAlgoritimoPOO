@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class mainAula
+public class mainAulaCinco
 {
 	static Scanner sc = new Scanner(System.in);
 	public static String inputString(String mensagem){
@@ -18,7 +18,7 @@ public class mainAula
 		System.out.print("Digite a idade: ");
 		int idade = sc.nextInt();
 		
-		Aluno aluno = new Aluno(nome, idade);
+		AlunoAula5 aluno = new AlunoAula5(nome, idade);
 		
 		System.out.print("Digite a nota1: ");
     	aluno.nota1 = sc.nextDouble();
